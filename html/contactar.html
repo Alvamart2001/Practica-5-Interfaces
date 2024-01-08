@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Baloo2' rel='stylesheet'>
+    <link href="../css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="imgNameNav">
+            <img src="../materiales/imagenes_practica_final/logo_peq.png" alt="Imagen del logo en pequeño en el nav">
+            <p>Alvaro Martínez</p>
+        </div>
+        <ul>
+            <li>
+                <a href="index.html" class="nav-button" data-info="Inicio">Inicio</a>
+            </li>
+            <li>
+                <a href="diseñoGrafico.html" class="nav-button" data-info="Diseño gráfico">Diseño gráfico</a>
+            </li>
+            <li>
+                <a href="inspiración.html" class="nav-button" data-info="Inspiración">Inspiración</a>
+            </li>
+            <li>
+                <a href="contactar.html" class="nav-button" data-info="Contactar">Contactar</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container1-2">
+
+        <h1>
+            <img src="../materiales/imagenes_practica_final/logo_ico.png" alt="Imagen del logo en grande y negro del contenedor1">
+            Portafolios principal de Alvaro Martínez</h1>
+
+        <h2>Diseñador multimedia</h2>
+
+        <ul id="iconos">
+            <li id="facebook">
+                <a href="#" title="Facebook"></a>
+            </li>
+            <li id="correo">
+                <a href="#" title="correo"></a>
+            </li>
+            <li id="google">
+                <a href="#" title="google"></a>
+            </li>
+            <li id="twitter">
+                <a href="#" title="twitter"></a>
+            </li>
+            <li id="linkeding">
+                <a href="#" title="linkeding"></a>
+            </li>
+            <li id="github">
+                <a href="#" title="github"></a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="containerPrincipal">
+
+        <form action="#" method="post">
+            <h4 class="textContacto">Contactar</h4>
+            <table class="tableContactar">
+                <tr>
+                    <td><label for="nombre">Nombre:</label></td>
+                    <td><input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required></td>
+                </tr>
+                <tr>
+                    <td><label for="apellidos">Apellidos:</label></td>
+                    <td><input type="text" id="apellidos" name="apellidos" placeholder="Escribe tus apellidos" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Escribe tu email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="telefono">Teléfono:</label></td>
+                    <td><input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono"></td>
+                </tr>
+                <tr>
+                    <td><label for="fechaNacimiento">Fecha de Nacimiento:</label></td>
+                    <td><input type="date" id="fechaNacimiento" name="fechaNacimiento" required></td>
+                </tr>
+                <tr>
+                    <td><label for="motivoContacto">Por qué quieres contactar:</label></td>
+                    <td>
+                        <select id="motivoContacto" name="motivoContacto" required>
+                            <option value="" disabled selected>Selecciona una opción</option>
+                            <option value="ofrecerProyecto">Ofrecer un proyecto</option>
+                            <option value="comprarDisegnos">Comprar mis diseños</option>
+                            <option value="aboutMe">Saber más sobre mí</option>
+                            <option value="otrasRazones">Otras razones</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mensaje">Mensaje:</label></td>
+                    <td><textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="apuntarBoletin">Apuntarme al boletín de noticias:</label>
+                        <input type="checkbox" id="apuntarBoletin" name="apuntarBoletin" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="aceptarCondiciones">¿Aceptas las condiciones de privacidad?</label>
+                        <input type="checkbox" id="aceptarCondiciones" name="aceptarCondiciones" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button class="buttonEnviar" type="submit">Enviar</button>
+                        <button class="buttonBorrarDatos" type="reset">Borrar datos</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+    <footer>
+        <div class="footerColum">
+
+            <div class="link-group">
+                <a href="#">Diseño gráfico</a>
+                <a href="#">Inspiración</a>
+                <a href="#">Sobre mí</a>
+                <a href="#">CONTACTAR</a>
+            </div>
+
+            <div class="link-group">
+                <a href="#">Política de cookies</a>
+                <a href="#">Aviso legal</a>
+                <a href="#">Mapa del sitio</a>
+                <a href="#">Ir al comienzo</a>
+            </div>
+
+        </div>
+
+        <p>Todas las imágenes son procedentes de bancos de imágenes de libre distribución</p>
+
+    </footer>
+
+</body>
+
+</html>

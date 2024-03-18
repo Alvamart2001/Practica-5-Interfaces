@@ -22,4 +22,4 @@ Proporciona instrucciones paso a paso sobre cómo instalar tu proyecto y cómo c
 
 ```bash
 git clone https://github.com/Alvamart2001/Practica-5-Interfaces.git
-cd Porfolio
+cd Practica-5-Interface

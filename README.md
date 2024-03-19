@@ -9,17 +9,29 @@
 
 Este proyecto es un portafolio de HTML y CSS realizado como parte de la clase de Interfaces del ciclo de Desarrollo de Aplicaciones Web (DAW). Proporciona una plataforma para que Álvaro, un estudiante del ciclo, muestre su trabajo y habilidades en el diseño y desarrollo de interfaces web. Este porfolio ha sido creado como parte de las actividades académicas para demostrar su aprendizaje y experiencia en el diseño web utilizando tecnologías como HTML y CSS.
 
-## Tabla de Contenidos
+## Características Adicionales
 
-1. [Instalación](#instalación)
-2. [Uso](#uso)
-3. [Contribución](#contribución)
-4. [Licencia](#licencia)
+- **Diseño Responsivo**: La interfaz se adapta a diferentes dispositivos y tamaños de pantalla para una experiencia consistente en todos los dispositivos.
+- **Optimización SEO**: Se han implementado prácticas de optimización de motores de búsqueda para mejorar la visibilidad del portafolio en la web.
+- **Integración de Redes Sociales**: Se incluyen enlaces a perfiles de redes sociales de Álvaro para facilitar la conexión y el networking.
+- **Sección de Testimonios**: Agrega testimonios de clientes o colaboradores anteriores para validar las habilidades y el trabajo de Álvaro.
 
-## Instalación
+## Tecnologías Utilizadas
 
-Proporciona instrucciones paso a paso sobre cómo instalar tu proyecto y cómo configurarlo.
+- **HTML y CSS**: Para la estructura y estilos del sitio web.
+- **Git y GitHub**: Para control de versiones y alojamiento del código.
+- **Markdown**: Para documentar el proyecto en este archivo README.
 
-```bash
-git clone https://github.com/Alvamart2001/Practica-5-Interfaces.git
-cd Practica-5-Interface
+## Estado del Proyecto
+
+El proyecto está finalizado y listo para su despliegue. Todas las características han sido implementadas y probadas satisfactoriamente.
+
+## Contribución
+
+El proyecto no está abierto a contribuciones en este momento, ya que ha sido completado como parte de un trabajo individual.
+
+## Contacto
+
+Para más información o cualquier consulta, por favor contacta a Álvaro a través de:
+- Correo electrónico: alvaro@example.com
+- Teléfono: +1234567890
